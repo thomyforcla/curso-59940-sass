@@ -1,0 +1,44 @@
+/*
+primero van los partials de la carpeta utilities
+*/
+
+@import "./utilities/map";
+@import "./utilities/mixins";
+@import "./utilities/functions";
+@import "./utilities/variables";
+
+/*
+despues los partials de la capeta base
+*/
+
+
+@import "./base/reset";
+
+/*
+luego los de la carpeta layout
+*/
+
+
+@import "./layout/header";
+@import "./layout/seccionIndex";
+@import "./layout/mainIndex";
+@import "./layout/footer";
+
+/*
+despues los components
+*/
+@import "./components/animaciones";
+
+
+@import "./layout/media/media1024";
+@import "./layout/media/media850";
+@import "./layout/media/media768";
+@import "./layout/media/media425";
+@import "./layout/media/media375";
+@import "./layout/media/media320";
+
+/*
+por ultimo los mediaquery, en orden decreciente
+de desktop a mobile
+*/
+

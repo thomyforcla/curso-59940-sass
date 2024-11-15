@@ -1,0 +1,25 @@
+@media (max-width:425px){
+    .header{
+        flex-direction: column;
+        background-color: #24262b;
+        width: 100%;
+        
+    }
+    .barraNav{
+        flex-direction: column;
+    }
+
+    .parrafo {
+        justify-self: center;
+        width: 100%;
+    }
+    .parrafo p {
+        justify-self: center;
+        width: 100%;
+        text-align: center;
+    }
+    .piedepag {
+        flex-direction: column;
+        text-align: center;
+    }
+}

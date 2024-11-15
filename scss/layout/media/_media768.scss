@@ -1,0 +1,49 @@
+@media (max-width:768px){
+    .header{
+        flex-direction: column;
+        background-color: #24262b;
+        width: 100%;
+        
+    }
+    .barraNav{
+        flex-direction: column;
+    }
+
+    .parrafo {
+        justify-self: center;
+        width: 100%;
+    }
+    .parrafo p {
+        justify-self: center;
+        width: 100%;
+        text-align: center;
+    }
+    .grid-container {
+        grid-template-rows: 80px 80px 80px 80px;
+        margin-bottom: 100px;
+    }
+    .seccion-2 {
+        grid-column: 3 / 5;
+        grid-row: 1 / 2;
+        background-size: 150% 150%;
+    }
+    .seccion-3 {
+        grid-column: 3 / 5;
+        grid-row: 2 / 3;
+        background-size: 150% 150%;
+    }
+    .seccion-4 {
+        grid-column: 3 / 5;
+        grid-row: 3 / 4;
+        background-size: 150% 150%;
+    }
+    .seccion-5 {
+        grid-column: 3 / 5;
+        grid-row: 4 / 5;
+        background-size: 150% 150%;
+    }
+    .piedepag {
+        flex-direction: column;
+        text-align: center;
+    }
+}

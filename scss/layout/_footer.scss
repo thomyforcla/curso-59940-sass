@@ -1,0 +1,33 @@
+.piedepag {
+    background-color: #24262b;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    .links {
+        h2 {
+        font-size: 20px;
+        color: map-get($color , terciario );
+        margin-bottom: 25px;
+        font-weight: 500;
+        border-bottom: 2px solid red;
+        padding-bottom: 10px;
+        display: inline-block;
+        }
+        ul {
+            li {
+                a {
+                font-size: 18px;
+                text-decoration: none;
+                list-style: none;
+                color: map-get($color , primario );
+                display: block;
+                margin-bottom: 15px;
+                &:hover{
+                color: map-get($color , terciario );
+                padding-left: 6px;
+                }
+            }
+        }
+    }
+    }
+}

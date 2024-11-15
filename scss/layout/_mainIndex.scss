@@ -1,0 +1,132 @@
+.productos {
+    width: 450px;
+    height: 500px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.card-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.card1-img {
+    width: 100%;
+    height: 60%;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+.card1 {
+    text-align: center;
+}
+
+.lineatiempo {
+    color: red;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    justify-self: center;
+    margin-top: 20px;
+}
+
+.locationsite p {
+    @extend .lineatiempo;
+}
+
+.finance p {
+    @extend .lineatiempo;
+}
+
+.boton {
+    border-style: solid;
+    border-width: 3px;
+    background-color: red;
+    margin: 10px 10px;
+    width: 200px;
+    height: 40px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+.submit {
+    padding: 8px 20px;
+    margin: 10px;
+    border-radius: 4px;
+    background-color: red;
+    border: red;
+    color: black;
+    font-weight: bold;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    background-color: black;
+    color: red;
+}
+
+.indexPrin {
+    background-image: url("../assets/golfgti fondo.avif");
+    width: 100%;
+}
+
+.section-principal {
+    background-image: url("../assets/golfgti fondo.avif");
+    width: 100%;
+    height: 40rem;
+    background-position: center 1200px;
+}
+
+.locationsite div {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    justify-self: center;
+    margin-bottom: 25px;
+}
+
+.inventario {
+    background-image: url("../assets/fondo3.avif");
+    width: 100%;
+    height: 100%;
+    background-position: center 1250px;
+}
+
+.finance {
+    background-image: url("../assets/fondo6.avif");
+    width: 100%;
+    height: 100%;
+    background-position: center 1250px;
+}
+
+.location {
+    background-image: url("../assets/locationfondo.jpg");
+    width: 100%;
+    height: 100%;
+    background-position: center 1200px;
+}
+
+.aboutus {
+    background-image: url("../assets/fondo2.avif");
+    width: 100%;
+    height: 100%;
+    background-position: center 1250px;
+}
