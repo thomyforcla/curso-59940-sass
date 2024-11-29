@@ -8,17 +8,28 @@
     .barraNav{
         flex-direction: column;
     }
-
+    
     .parrafo {
         justify-self: center;
     }
     .parrafo p {
         justify-self: center;
         text-align: center;
+        width: 100px;
+        height: 200px;
+    }
+    .lineatiempo p {
+        display: flex;
+        width: 100px;
+        height: 100px;
+        justify-self: center;
+        text-align: center;
     }
     .piedepag {
         flex-direction: column;
         text-align: center;
+        background-color: #24262b;
+
     }
 }
 
